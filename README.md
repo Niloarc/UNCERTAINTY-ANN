@@ -29,5 +29,4 @@ history = best_model.fit(X_train, y_train,
                          validation_split=0.2)
 
  
-Fig.1. Data distribution for training, validation, and testing.
 A t-SNE (t-Distributed Stochastic Neighbor Embedding) plot was used to visualize features, which is a non-linear dimensionality reduction technique primarily used for visualizing high-dimensional data by preserving local relationships and revealing clusters. Unlike PCA, which focuses on maximizing variance through linear transformations, t-SNE emphasizes capturing the similarity between nearby points, making it ideal for understanding the local structure of data. While PCA is efficient and interpretable for feature reduction or preprocessing, t-SNE is better suited for finding patterns between the input variables and MFSP.
